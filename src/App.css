@@ -1,0 +1,46 @@
+
+
+:root{
+  --card:rgb(112, 60, 0);
+}
+body{
+  background-color: var(--bgcolor);
+}
+.bd-color{
+  background-color:var(--bgcolor);
+}
+.nav-height{
+  height: 30vh;
+}
+
+.home_img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+.home_desc_col{
+  color: rgb(160, 107, 0);
+}
+
+
+
+/* About  */
+
+
+.about_borders{
+
+  border: 2px solid var(--bgcolor);
+}
+
+
+/* cuisins  */
+
+.cuisins_shadow{
+  box-shadow: 0 0 10px black;
+}
+
+.card_bg{
+  background-color: var(--card);
+  color: white;
+}
